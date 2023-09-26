@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #b7b2b2e0;
+}
+.heading {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: #ffbb00;
+}
+.btn-div {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #ffbb00;
+}
+.note {
+  color: black;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px 20px;
+}
+.operation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 10px;
+  padding: 5px 0px;
+}
+.edit {
+  color: #fff;
+  background-color: green;
+  border: none;
+}
+.edit:hover {
+  color: green;
+  background-color: white;
+}
+.delete {
+  color: #fff;
+  background-color: red;
+  border: none;
+}
+.delete:hover {
+  color: red;
+  background-color: white;
+}
+textarea {
+  width: 100%;
+  height: 124px;
+  /* background-color: teal; */
+  border: none;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
